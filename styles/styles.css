@@ -500,3 +500,73 @@
   font-style: italic;
   font-weight: 400;
 }
+
+.catalogue {}
+
+.catalogue__wrapper {
+  padding: 124px 32px;
+}
+
+.catalogue__header {
+  margin: 0;
+  padding: 0;
+  color: #141414;
+  text-align: center;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  /* 110% */
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.catalogue__intro-text {
+  color: #141414;
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 133.333% */
+  letter-spacing: -0.72px;
+  max-width: 562px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.catalogue__card-item-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  column-gap: 24px;
+  row-gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalogue__card-item {
+  width: 33.3333%;
+}
+
+.catalogue__card {
+  padding: 64px 24px 24px;
+  background-color: #EAF7E5;
+}
+
+.card {}
+
+.card__header {
+  color: #141414;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  /* 118.75% */
+  letter-spacing: -1.28px;
+  margin: 0;
+}
